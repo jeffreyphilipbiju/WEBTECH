@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html>
+<!DOCTYPE html>
+<html>
+
+<head>
+    <fieldset>
+
+<body style="background-color: #a8e0ec; padding-left:5%;padding-right:5%;">
+    <h1>Submit Your Resume</h1>
+    <fieldset>
+        <legend> <b> Personal Details </b></legend>
+
+        <form action="" method="post" style="padding-left: 2%;padding-bottom:2%; text-align: left;">
+            *First Name <br><input type="text" name="first name" placeholder="Enter your First Name" required
+                style="padding:5px; width:20%"><br>
+            *Middle Name <br><input type="text" name="Middle name" placeholder="Enter your Middle Name" required
+                style="padding:5px; width:20%"><br>
+            *Last Name <br><input type="text" name="last name" placeholder="Enter your last Name" required
+                style="padding:5px; width:20%"><br>
+            Date of Birth<br><input type="date" id="birthday" name="birthday" placeholder="DOB"
+                style="padding:5px; width:20%"><br>
+            Age in years <br><input type="number" name="age" placeholder="<30&>18" style="padding:5px; width:20%"><br>
+            Gender<br><input type="radio" name="gender" value="male"> Male<input type="radio" name="gender"
+                value="female"> Female<input type="radio" name="gender" value="other"> Other
+        </form>
+    </fieldset>
+    <progress id="inp1" value="20" max="100"></progress><label>&nbsp; 20% out of 100%</label>
+
+    <fieldset>
+        <legend> <b> Address Details </b></legend>
+
+        <form action="" method="post" style="padding-left: 2%;padding-bottom:2%; text-align: left;">
+            Address <br><textarea rows="4" type="text" name="address" placeholder="Enter your Address" required
+                style="padding:5px; width:30%;"></textarea><br>
+            City/ Town <br><input type="text" name="city" placeholder="Enter your city" required
+                style="padding:5px; width:20%"><br>
+            State <br><select id="tate" name="state" required style="padding:5px; width:20%">
+                <option value="AN">Andaman and Nicobar Islands</option>
+                <option value="AP">Andhra Pradesh</option>
+                <option value="GA">Goa</option>
+                <option value="KA">Karnataka</option>
+                <option value="KL">Kerala</option>
+                <option value="PY">Puducherry</option>
+                <option value="TN">Tamil Nadu</option>
+                <option value="TG">Telangana</option>
+            </select><br>
+            Zipcode <br><input type="number" name="zipode" placeholder="only 6 numbers" maxlength="6"
+                style="padding:5px; width:20%"><br>
+        </form>
+    </fieldset>
+    <progress id="inp2" value="40" max="100"></progress><label>&nbsp; 40% out of 100%</label>
+    <fieldset>
+        <legend> <b> Address Details </b></legend>
+        <h3 style="padding-left:2%;"></h3>
+        <form action="" method="post" style="padding-left: 2%;padding-bottom:2%; text-align: left;">
+            Telephone<br><input type="tel" id="phone" name="telph" required placeholder="(044)-999-9999"
+                style="padding:5px; width:20%"><br>
+            *Mobile<br><input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required
+                placeholder="999-999-9999" required style="padding:5px; width:20%"><br>
+            *Email id <br><input type="email" id="email" name="email" placeholder="Mail" required
+                style="padding:5px; width:20%"><br>
+            Website <br><input type="text" name="email" placeholder="valid url" style="padding:5px; width:20%"><br>
+        </form>
+    </fieldset>
+    <progress id="inp3" value="60" max="100"></progress><label>&nbsp; 60% out of 100%</label>
+    <fieldset>
+        <legend><b> Educational Details </b></legend>
+
+        <table border="1" width="100%">
+            <form action="" method="post" style="padding-left: 2%;padding-bottom:2%; text-align: left;">
+                <tr>
+                    <td align="center">Qualification</td>
+                    <td align="center">Board/University</td>
+                    <td align="center">Country</td>
+                    <td align="center">Starting Year</td>
+                    <td align="center">Ending Year</td>
+                    <td align="center">Percentage</td>
+                </tr>
+                <tr>
+                    <td align="center"><input type="checkbox" id="10th" value="10th"><label for="10th">10th</label><br>
+                    </td>
+                    <td align="center"><input type="text" name="B/U" placeholder="Board/University"
+                            style="width:98%; text-align: center;"></td>
+                    <td align="center"><select id="Country" name="Country" style="width:98%;text-align: center;">
+                            <option value="IND">India</option>
+                            <option value="USA">United States of America</option>
+                            <option value="CAN">Canada</option>
+                            <option value="JAP">Japan</option>
+                            <option value="UAE">UAE</option>
+                        </select></td>
+                    <td align="center"><input type="date" id="start" placeholder="DD/MM/YYYY"
+                            style="width:98%;text-align: center;"></td>
+                    <td align="center"><input type="date" id="end" placeholder="DD/MM/YYYY"
+                            style="width:98%;text-align: center;"></td>
+                    <td align="center"><input type="number" name="percentage" placeholder="%"
+                            style="width:20%;text-align: center;"></td>
+                </tr>
+                <tr>
+                    <td align="center"><input type="checkbox" id="12th" value="12th"><label for="12th">12th</label><br>
+                    </td>
+                    <td align="center"><input type="text" name="B/U" placeholder="Board/University"
+                            style="width:98%; text-align: center;"></td>
+                    <td align="center"><select id="Country" name="Country" style="width:98%;text-align: center;">
+                            <option value="IND">India</option>
+                            <option value="USA">United States of America</option>
+                            <option value="CAN">Canada</option>
+                            <option value="JAP">Japan</option>
+                            <option value="UAE">UAE</option>
+                        </select></td>
+                    <td align="center"><input type="date" id="start" placeholder="DD/MM/YYYY"
+                            style="width:98%;text-align: center;"></td>
+                    <td align="center"><input type="date" id="end" placeholder="DD/MM/YYYY"
+                            style="width:98%;text-align: center;"></td>
+                    <td align="center"><input type="number" name="percentage" placeholder="%"
+                            style="width:20%;text-align: center;"></td>
+                </tr>
+                <tr>
+                    <td align="center"><input type="checkbox" id="B-tech" value="B-tech"><label
+                            for="B-tech">B-tech</label><br></td>
+                    <td align="center"><input type="text" name="B/U" placeholder="Board/University"
+                            style="width:98%; text-align: center;"></td>
+                    <td align="center"><select id="Country" name="Country" style="width:98%;text-align: center;">
+                            <option value="IND">India</option>
+                            <option value="USA">United States of America</option>
+                            <option value="CAN">Canada</option>
+                            <option value="JAP">Japan</option>
+                            <option value="UAE">UAE</option>
+                        </select></td>
+                    <td align="center"><input type="date" id="start" placeholder="DD/MM/YYYY"
+                            style="width:98%;text-align: center;"></td>
+                    <td align="center"><input type="date" id="end" placeholder="DD/MM/YYYY"
+                            style="width:98%;text-align: center;"></td>
+                    <td align="center"><input type="number" name="percentage" placeholder="%"
+                            style="width:20%;text-align: center;"></td>
+                </tr>
+                <tr>
+                    <td align="center"><input type="checkbox" id="M-tech" value="M-tech"><label
+                            for="M-tech">M-tech</label><br></td>
+                    <td align="center"><input type="text" name="B/U" placeholder="Board/University"
+                            style="width:98%; text-align: center;"></td>
+                    <td align="center"><select id="Country" name="Country" style="width:98%;text-align: center;">
+                            <option value="IND">India</option>
+                            <option value="USA">United States of America</option>
+                            <option value="CAN">Canada</option>
+                            <option value="JAP">Japan</option>
+                            <option value="UAE">UAE</option>
+                        </select></td>
+                    <td align="center"><input type="date" id="start" placeholder="DD/MM/YYYY"
+                            style="width:98%;text-align: center;"></td>
+                    <td align="center"><input type="date" id="end" placeholder="DD/MM/YYYY"
+                            style="width:98%;text-align: center;"></td>
+                    <td align="center"><input type="number" name="percentage" placeholder="%"
+                            style="width:20%;text-align: center;"></td>
+                </tr>
+            </form>
+
+        </table>
+    </fieldset>
+    <progress id="inp4" value="80" max="100"></progress><label>&nbsp; 80% out of 100%</label><br>
+    <fieldset>
+        <label for="myfile">Attach your resume in .doc or .pdf format &nbsp;</label><input type="file" id="myfile"
+            name="myfile"><br>
+        <input type="checkbox" id="c" value="c"><label for="c">I have filled all the details</label><br>
+    </fieldset>
+    <progress id="inp4" value="100" max="100"></progress><label>&nbsp; 100% out of 100%</label><br>
+    <div align="center"><input type="submit" value="Submit" formaction="pad.html" style="text-align:center;"></div>
+</body>
+</fieldset>
+</head>
+
+</html>
+<head>
+    <fieldset>
+
+<body style="background-color: #a8e0ec; padding-left:5%;padding-right:5%;">
+    <h1>Submit Your Resume</h1>
+    <fieldset>
+        <h3 style="padding-left:2%;">Personal Details</h3>
+        <form action="" method="post" style="padding-left: 2%;padding-bottom:2%; text-align: left;">
+            *First Name <br><input type="text" name="first name" placeholder="Enter your First Name" required
+                style="padding:5px; width:20%"><br>
+            *Middle Name <br><input type="text" name="Middle name" placeholder="Enter your Middle Name" required
+                style="padding:5px; width:20%"><br>
+            *Last Name <br><input type="text" name="last name" placeholder="Enter your last Name" required
+                style="padding:5px; width:20%"><br>
+            Date of Birth<br><input type="date" id="birthday" name="birthday" placeholder="DOB"
+                style="padding:5px; width:20%"><br>
+            Age in years <br><input type="number" name="age" placeholder="<30&>18" style="padding:5px; width:20%"><br>
+            Gender<br><input type="radio" name="gender" value="male"> Male<input type="radio" name="gender"
+                value="female"> Female<input type="radio" name="gender" value="other"> Other
+        </form>
+    </fieldset>
+    <progress id="inp1" value="20" max="100"></progress><label>&nbsp; 20% out of 100%</label>
+
+    <fieldset>
+        <h3 style="padding-left:2%;">Address Details</h3>
+        <form action="" method="post" style="padding-left: 2%;padding-bottom:2%; text-align: left;">
+            Address <br><textarea rows="4" type="text" name="address" placeholder="Enter your Address" required
+                style="padding:5px; width:30%;"></textarea><br>
+            City/ Town <br><input type="text" name="city" placeholder="Enter your city" required
+                style="padding:5px; width:20%"><br>
+            State <br><select id="tate" name="state" required style="padding:5px; width:20%">
+                <option value="AN">Andaman and Nicobar Islands</option>
+                <option value="AP">Andhra Pradesh</option>
+                <option value="GA">Goa</option>
+                <option value="KA">Karnataka</option>
+                <option value="KL">Kerala</option>
+                <option value="PY">Puducherry</option>
+                <option value="TN">Tamil Nadu</option>
+                <option value="TG">Telangana</option>
+            </select><br>
+            Zipcode <br><input type="number" name="zipode" placeholder="only 6 numbers" maxlength="6"
+                style="padding:5px; width:20%"><br>
+        </form>
+    </fieldset>
+    <progress id="inp2" value="40" max="100"></progress><label>&nbsp; 40% out of 100%</label>
+    <fieldset>
+        <h3 style="padding-left:2%;">Address Details</h3>
+        <form action="" method="post" style="padding-left: 2%;padding-bottom:2%; text-align: left;">
+            Telephone<br><input type="tel" id="phone" name="telph" required placeholder="(044)-999-9999"
+                style="padding:5px; width:20%"><br>
+            *Mobile<br><input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required
+                placeholder="999-999-9999" required style="padding:5px; width:20%"><br>
+            *Email id <br><input type="email" id="email" name="email" placeholder="Mail" required
+                style="padding:5px; width:20%"><br>
+            Website <br><input type="text" name="email" placeholder="valid url" style="padding:5px; width:20%"><br>
+        </form>
+    </fieldset>
+    <progress id="inp3" value="60" max="100"></progress><label>&nbsp; 60% out of 100%</label>
+    <fieldset>
+        <h3 style="padding-left:2%;">Educational Details</h3>
+        <table border="1" width="100%">
+            <form action="" method="post" style="padding-left: 2%;padding-bottom:2%; text-align: left;">
+                <tr>
+                    <td align="center">Qualification</td>
+                    <td align="center">Board/University</td>
+                    <td align="center">Country</td>
+                    <td align="center">Starting Year</td>
+                    <td align="center">Ending Year</td>
+                    <td align="center">Percentage</td>
+                </tr>
+                <tr>
+                    <td align="center"><input type="checkbox" id="10th" value="10th"><label for="10th">10th</label><br>
+                    </td>
+                    <td align="center"><input type="text" name="B/U" placeholder="Board/University"
+                            style="width:98%; text-align: center;"></td>
+                    <td align="center"><select id="Country" name="Country" style="width:98%;text-align: center;">
+                            <option value="IND">India</option>
+                            <option value="USA">United States of America</option>
+                            <option value="CAN">Canada</option>
+                            <option value="JAP">Japan</option>
+                            <option value="UAE">UAE</option>
+                        </select></td>
+                    <td align="center"><input type="date" id="start" placeholder="DD/MM/YYYY"
+                            style="width:98%;text-align: center;"></td>
+                    <td align="center"><input type="date" id="end" placeholder="DD/MM/YYYY"
+                            style="width:98%;text-align: center;"></td>
+                    <td align="center"><input type="number" name="percentage" placeholder="%"
+                            style="width:20%;text-align: center;"></td>
+                </tr>
+                <tr>
+                    <td align="center"><input type="checkbox" id="12th" value="12th"><label for="12th">12th</label><br>
+                    </td>
+                    <td align="center"><input type="text" name="B/U" placeholder="Board/University"
+                            style="width:98%; text-align: center;"></td>
+                    <td align="center"><select id="Country" name="Country" style="width:98%;text-align: center;">
+                            <option value="IND">India</option>
+                            <option value="USA">United States of America</option>
+                            <option value="CAN">Canada</option>
+                            <option value="JAP">Japan</option>
+                            <option value="UAE">UAE</option>
+                        </select></td>
+                    <td align="center"><input type="date" id="start" placeholder="DD/MM/YYYY"
+                            style="width:98%;text-align: center;"></td>
+                    <td align="center"><input type="date" id="end" placeholder="DD/MM/YYYY"
+                            style="width:98%;text-align: center;"></td>
+                    <td align="center"><input type="number" name="percentage" placeholder="%"
+                            style="width:20%;text-align: center;"></td>
+                </tr>
+                <tr>
+                    <td align="center"><input type="checkbox" id="B-tech" value="B-tech"><label
+                            for="B-tech">B-tech</label><br></td>
+                    <td align="center"><input type="text" name="B/U" placeholder="Board/University"
+                            style="width:98%; text-align: center;"></td>
+                    <td align="center"><select id="Country" name="Country" style="width:98%;text-align: center;">
+                            <option value="IND">India</option>
+                            <option value="USA">United States of America</option>
+                            <option value="CAN">Canada</option>
+                            <option value="JAP">Japan</option>
+                            <option value="UAE">UAE</option>
+                        </select></td>
+                    <td align="center"><input type="date" id="start" placeholder="DD/MM/YYYY"
+                            style="width:98%;text-align: center;"></td>
+                    <td align="center"><input type="date" id="end" placeholder="DD/MM/YYYY"
+                            style="width:98%;text-align: center;"></td>
+                    <td align="center"><input type="number" name="percentage" placeholder="%"
+                            style="width:20%;text-align: center;"></td>
+                </tr>
+                <tr>
+                    <td align="center"><input type="checkbox" id="M-tech" value="M-tech"><label
+                            for="M-tech">M-tech</label><br></td>
+                    <td align="center"><input type="text" name="B/U" placeholder="Board/University"
+                            style="width:98%; text-align: center;"></td>
+                    <td align="center"><select id="Country" name="Country" style="width:98%;text-align: center;">
+                            <option value="IND">India</option>
+                            <option value="USA">United States of America</option>
+                            <option value="CAN">Canada</option>
+                            <option value="JAP">Japan</option>
+                            <option value="UAE">UAE</option>
+                        </select></td>
+                    <td align="center"><input type="date" id="start" placeholder="DD/MM/YYYY"
+                            style="width:98%;text-align: center;"></td>
+                    <td align="center"><input type="date" id="end" placeholder="DD/MM/YYYY"
+                            style="width:98%;text-align: center;"></td>
+                    <td align="center"><input type="number" name="percentage" placeholder="%"
+                            style="width:20%;text-align: center;"></td>
+                </tr>
+            </form>
+
+        </table>
+    </fieldset>
+    <progress id="inp4" value="80" max="100"></progress><label>&nbsp; 80% out of 100%</label><br>
+    <fieldset>
+        <label for="myfile">Attach your resume in .doc or .pdf format &nbsp;</label><input type="file" id="myfile"
+            name="myfile"><br>
+        <input type="checkbox" id="c" value="c"><label for="c">I have filled all the details</label><br>
+    </fieldset>
+    <progress id="inp4" value="100" max="100"></progress><label>&nbsp; 100% out of 100%</label><br>
+    <div align="center"><input type="submit" value="Submit" formaction="pad.html" style="text-align:center;"></div>
+</body>
+</fieldset>
+</head>
+
+</html>

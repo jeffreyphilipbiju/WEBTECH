@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible"content="IE=edge">
+    <meta name="viewport"content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+        table.table-bordered>thead>tr>th{
+            background-color:#C724B1;
+            border:1pxsolid#C724B1;
+        }
+
+        table.table-bordered>tbody>tr>td{
+            border:1pxsolid#C724B1;
+        }
+
+        fieldset{
+            border:solid#C724B1;
+        }
+
+        p,
+        label{
+            color:#C724B1;
+        }
+        .carousel-innerimg{
+            width:100%;
+            height:100%;
+        }
+    </style>
+    <title>mugiwara</title>
+</head>
+
+<body style="background-color: rgb(255, 255, 255);">
+    <div class="container-fluid ">
+        <div class="row">
+
+            <div class="col-md-12 col-sm-12 col-xs-12  ">
+                <nav class="navbar navbar-expand-md bg-black navbar-dark ">
+                    <a class="navbar-brand"href="#"><img src="https://wallpaperaccess.com/full/2193365.jpg " height= 200 width = 400 alt="mugiwara Logo"></a>
+                    <button class="navbar-toggler"type="button"data-toggle="collapse"
+                        data-target="#collapsibleNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-center"id="collapsibleNavbar">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link"href="#">About Us!</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link"href="#">Connections</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link"href="#">Positions</a>
+                            </li>
+                            <li>
+                                <nav class="navbar navbar-expand-md bg-black navbar-dark">
+                                    <form class="form-inline"action="/action_page.php">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text">🔎</span>
+                                        </div>
+                                        <input class="form-control mr-sm-2"type="text"placeholder="Search">
+                                        <button class="btnbtn-success"type="submit">Search</button>
+                                    </form>
+                                </nav>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+            <div id="demo"class="col-md-12 col-sm-12 col-xs-12 carousel slide"data-ride="carousel">
+
+                <ul class="carousel-indicators">
+                    <li data-target="#demo"data-slide-to="0"class="active"></li>
+                    <li data-target="#demo"data-slide-to="1"></li>
+                    <li data-target="#demo"data-slide-to="2"></li>
+                </ul>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="I.jpg"alt="Guild Master"width="1100"height="500">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h4>Sung Jin Woo A.K.A Shadow Monarch</h4>
+
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="I_g.jpg"alt="Vice Guild Master"width="1100"height="500">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h4>Yoojinho A.K.A Vice Guild Master</h4>
+
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="I_w.jpg"alt="Founding Member"width="1100"height="500">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h4>Cha hea A.K.A Founding Member</h4>
+
+                        </div>
+                    </div>
+
+                    <a class="carousel-control-prev"href="#demo"data-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a class="carousel-control-next"href="#demo"data-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </a>
+                </div>
+                <br>
+            </div>
+
+            <div class="row m-1">
+                <div class="col-md-6 col-sm-12 col-xs-12 ">
+
+                    <fieldset class="p-4 mb-2">
+                        <form action="">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <p></p>
+                                </div>
+                                <div class="col-md-4 ">
+                                    <h4 style="color:#C724B1;">Registration Form</h4>
+                                </div>
+                                <div class="col-md-4">
+                                    <p></p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <p>Email</p>
+                                </div>
+                                <div class="col">
+                                    <p>Password</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <input type="text"class="form-control"placeholder=""name="email">
+                                </div>
+                                <div class="col">
+                                    <input type="password"class="form-control"placeholder=""name="pswd">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <p></p>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <p>Address</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <input type="text"class="form-control"placeholder="1234 Main St."name="address">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <p></p>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <p>Address2</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <input type="text"class="form-control"placeholder="Apartment, studio or floor"
+                                        name="address">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <p></p>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <p>City</p>
+                                </div>
+                                <div class="col">
+                                    <p>State</p>
+                                </div>
+                                <div class="col">
+                                    <p>Zip</p>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col">
+                                    <input type="text"class="form-control"placeholder=""name="city">
+                                </div>
+                                <div class="col">
+                                    <input type="dropdown"class="form-control"placeholder="choose"name="state">
+                                </div>
+                                <div class="col">
+                                    <input type="number"class="form-control"placeholder=""name="zip">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <p></p>
+                            </div>
+                            <div class="form-check mb-3">
+                                <label class="form-check-label">
+                                    <input class="form-check-input"type="checkbox"name="remember"> Check me out
+                                </label>
+                            </div>
+                            <button type="submit"class="btnbtn-dark"style="color:#C724B1;">Sign in</button>
+                        </form>
+
+                </div>
+                </fieldset>
+
+                <div class="col-md-6 col-sm-12 col-xs-12 ">
+                    <table class="table table-bordered table-hover text-white">
+                        <thead>
+                            <tr>
+                                <th>S.No</th>
+                                <th>Hunter Id</th>
+                                <th>Name of the Hunter</th>
+                                <th>Collaborative activity</th>
+                                <th>Collaborating Agency</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1.</td>
+                                <td>URK20CS2006</td>
+                                <td>JEFFREY PHILIP</td>
+                                <td>Product Design and Analysis</td>
+                                <td>CADD Center</td>
+                            </tr>
+                            <tr>
+                                <td>2.</td>
+                                <td>URK20CS3019</td>
+                                <td>MARTIN SUBI</td>
+                                <td>Product Design and Analysis</td>
+                                <td>CADD Center</td>
+                            </tr>
+                            <tr>
+                                <td>3.</td>
+                                <td>URK201058</td>
+                                <td>VAIBHAV DANIEL</td>
+                                <td>Product Design and Analysis</td>
+                                <td>CADD Center</td>
+                            </tr>
+                            </tr>
+                            <tr>
+                                <td>4.</td>
+                                <td>URK20CS3004</td>
+                                <td>ABHISHEK BHENGRA</td>
+                                <td>Product Design and Analysis</td>
+                                <td>CADD Center/td>
+                            </tr>
+                            </tr>
+                            <tr>
+                                <td>5.</td>
+                                <td>URK20CS2075</td>
+                                <td>ADI SAI</td>
+                                <td>Product Design and Analysis</td>
+                                <td>CADD Center</td>
+                            </tr>
+                            </tr>
+                            <tr>
+                                <td>6.</td>
+                                <td>URK20CS2065</td>
+                                <td>CLEVERT JIMMY</td>
+                                <td>Product Design and Analysis</td>
+                                <td>CADD Center</td>
+                            </tr>
+                            </tr>
+                            <tr>
+                                <td>7.</td>
+                                <td>URK20CS2062</td>
+                                <td>JASON DEVADOSS</td>
+                                <td>Product Design and Analysis</td>
+                                <td>CADD Center</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+</body>
+</html>
